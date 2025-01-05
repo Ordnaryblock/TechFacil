@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tech Fácil: Seu portal de tecnologia para iniciantes. Tutoriais simples, dicas práticas e guias acessíveis para aprender sobre tecnologia.">
+    <title>Tech Fácil</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Tech Fácil</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="tutoriais.html">Tutoriais</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Aprenda tecnologia de forma fácil e prática</h2>
+            <p>Tutoriais, dicas e guias para quem está começando no mundo digital.</p>
+            <a href="tutoriais.html" class="btn">Comece Agora</a>
+        </section>
+
+        <section class="articles">
+            <div class="container">
+                <h2>Artigos Recentes</h2>
+                <div class="article">
+                    <h3><a href="artigo1.html">Como Escolher um Computador para Iniciantes</a></h3>
+                    <p>Saiba quais são os principais fatores a considerar ao comprar seu primeiro computador.</p>
+                </div>
+                <div class="article">
+                    <h3><a href="artigo2.html">5 Aplicativos Essenciais para Smartphones</a></h3>
+                    <p>Descubra os aplicativos que todo iniciante deve conhecer para facilitar o dia a dia.</p>
+                </div>
+                <div class="article">
+                    <h3><a href="artigo3.html">Introdução ao Microsoft Word: Guia Básico</a></h3>
+                    <p>Aprenda as funções básicas do Microsoft Word para começar a criar documentos profissionais.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Tech Fácil. Todos os direitos reservados.</p>
+            <nav>
+                <ul>
+                    <li><a href="politica.html">Política de Privacidade</a></li>
+                    <li><a href="termos.html">Termos de Uso</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+    <!-- Páginas Internas -->
+
+    <!-- Página Sobre -->
+    <div id="sobre" style="display:none;">
+        <h2>Sobre Tech Fácil</h2>
+        <p>Bem-vindo ao Tech Fácil! Aqui você encontra conteúdos práticos e simples para aprender tecnologia de maneira descomplicada. Nosso objetivo é tornar o mundo digital acessível para todos.</p>
+    </div>
+
+    <!-- Página Tutoriais -->
+    <div id="tutoriais" style="display:none;">
+        <h2>Tutoriais</h2>
+        <ul>
+            <li><a href="artigo1.html">Como Escolher um Computador para Iniciantes</a></li>
+            <li><a href="artigo2.html">5 Aplicativos Essenciais para Smartphones</a></li>
+            <li><a href="artigo3.html">Introdução ao Microsoft Word: Guia Básico</a></li>
+        </ul>
+    </div>
+
+    <!-- Página Contato -->
+    <div id="contato" style="display:none;">
+        <h2>Contato</h2>
+        <p>Tem dúvidas ou sugestões? Entre em contato conosco pelo formulário abaixo:</p>
+        <form action="#" method="post">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
